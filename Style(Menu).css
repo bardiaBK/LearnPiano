@@ -1,0 +1,78 @@
+.product-all{
+    display:inline-block;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+    background-color:rgb(241, 241, 241);
+    border:3px solid rgb(0, 0, 0);
+    border-radius:15px;
+}
+
+.product-pro{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:97vw;
+}
+
+#pro-img{
+    width:100px;
+    border-radius:10px;
+}
+
+#pro-audio{
+    border:2px solid black;
+    border-radius:15px;
+    width:300px;
+}
+
+.pro-h1{
+    font-size:20px;
+}
+
+#download{
+    text-decoration:none;
+    color:white;
+    background-color:rgb(67, 61, 255);
+    font-size:20px;
+    width:120px;
+    text-align:center;
+    border:3px solid rgb(5, 238, 255);
+    border-radius:15px;
+}
+
+@media (max-width:1000px){
+    .product-all{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        border-radius:10px;
+    }
+
+    .product-pro{
+        display:grid;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .pro-h1{
+        display:grid;
+        justify-content:center;
+        align-items:center;
+    }
+
+    #pro-img{
+        margin-left:100px;
+        margin-top:10px;
+    }
+
+    #download{
+        font-size:23px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:20px;
+        margin-bottom:20px;
+        margin-left:80px;
+    }
+}
