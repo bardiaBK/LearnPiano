@@ -2,7 +2,7 @@
     display:inline-block;
     justify-content:center;
     align-items:center;
-    margin-top:30px;
+    margin-top:20px;
     background-color:rgb(241, 241, 241);
     border:3px solid rgb(0, 0, 0);
     border-radius:15px;
@@ -41,6 +41,39 @@
     border-radius:15px;
 }
 
+.orga{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.orga-a{
+    text-decoration:none;
+    color:black;
+    transition:0.5s;
+}
+
+.orga-h1{
+    background-color:rgb(251, 147, 36);
+    border-radius:15px;
+    border:3px solid rgb(255, 0, 0);
+    width:410px;
+    text-align:center;
+    transition:0.5s;
+    font-size:30px;
+}
+
+.orga-a:hover{
+    color:white;
+    transition:0.5s;
+}
+
+.orga-h1:hover{
+    background-color:rgb(255, 140, 0);
+    border:3px solid orange;
+    transition:0.5s;
+}
+
 @media (max-width:1000px){
     .product-all{
         display:flex;
@@ -74,5 +107,9 @@
         margin-top:20px;
         margin-bottom:20px;
         margin-left:80px;
+    }
+
+    .orga-h1{
+        font-size:20px;
     }
 }
